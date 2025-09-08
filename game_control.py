@@ -114,6 +114,8 @@ class GameControl:
         offset = get_surface_mouse_offset(self.board_draw.get_piece_by_index(index)["rect"], mouse_pos)
         self.held_piece = HeldPiece(surface, offset)
 
+        #test
+
     def move_ai(self):
         # Gets best move from an AI instance and moves it.
         if self.turn == "W":
