@@ -15,8 +15,8 @@ class PlayerType(Enum):
 
 # --- Konfiguration für Remis ---
 THREEFOLD_REPETITION = 3
-HALFMOVE_DRAW_LIMIT = 200  # vorher 100
-DRAW_BIAS = 10.0            # Draw ist so „schlecht“ für die Seite mit Vorteil
+HALFMOVE_DRAW_LIMIT = 100  # vorher 100
+DRAW_BIAS = 5.0            # Draw ist so „schlecht“ für die Seite mit Vorteil
 
 class GameStats:
     def __init__(self):
